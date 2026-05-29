@@ -1,0 +1,70 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyCharm, VS Code, and other IDEs
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+*.swo
+
+# OS specific files
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+ehthumbs.db
+
+# Dataset files (large medical images)
+*.nii
+*.nii.gz
+*.csv
+
+# Exceptions: Allow the project labels CSV in data folder
+!data/dhcp_preterm_score_labeled.csv
+
+# PyTorch checkpoints and model weights
+*.pth
+*.pt
+*.ckpt
+
+# Output results and logs
+runs/
+roc_history/
+*.log
+*.txt
+*.pdf
+*.png
+
+# Exception: Allow doc templates if any, or readme
+!README.md
+!docs/*.md
+!data/README.md
+!docs/graph TD.mmd
